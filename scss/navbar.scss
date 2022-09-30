@@ -1,0 +1,38 @@
+.navbar {
+    width: 1280px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    nav {
+        max-width: 980px;
+        min-height: 72px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .navLeft {
+            position: relative;
+            display: flex;
+            width: 451px;
+            height: 42px;
+            img {
+                width: 92px;
+                height: 42px;
+              }
+          }
+          .navRight {
+            width: 530px;
+            height: 42px;
+            display: flex;
+            a {
+                padding: 10px;
+                letter-spacing: 2px;
+                text-decoration: none;
+                color: black;
+              }
+          }
+      }
+  }
+  
